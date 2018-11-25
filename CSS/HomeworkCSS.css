@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+.Title{
+    color:crimson;
+    text-align:center;
+    background-color:#82a328;
+    border: 4px solid #111111;
+    border-radius: 10px;
+}
+html {
+  background: url(amazon-rainforest.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    color:floralwhite;
+}
+p{
+    font-family: 'Libre Baskerville', serif;
+    color:floralwhite;
+}
+nav ul{
+    list-style-type:none;
+    background-color:#c40b0b;
+    border: 4px solid #111111;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    padding: 16px;   
+}
+nav ul li {
+    display: inline;
+    border-right: 2px solid #111111;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+nav ul li:last-child {
+    border-right:none;
+}
+nav ul li a{
+    text-decoration: none;
+    text-align:center;
+    color:#111111;
+}
+ul{
+    color:floralwhite;
+}
+ol{
+    color:floralwhite;
+}
+.small{
+    float:left;
+    height: 200px;
+    
+}
