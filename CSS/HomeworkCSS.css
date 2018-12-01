@@ -109,3 +109,12 @@ body, html {
     content: "Disastrous Fact: ";
     font-weight: bold;
 }
+section{
+    border: 4px solid black;
+    border-radius:16px;
+    padding: 16px;
+    background-color:#03fc22;
+}
+section p, h2{
+    color:black;
+}
