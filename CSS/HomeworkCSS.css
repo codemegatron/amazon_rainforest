@@ -128,3 +128,7 @@ section {
 .title {
 	text-decoration:underline;
 }
+.animal {
+    height:275px;
+    width:auto;
+}
